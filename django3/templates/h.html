@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" herf="{% static 'site.css'}" type="text/css">
+</head>
+<body>
+	<p>
+		{{example}}
+	</p>
+	</br>
+	<img alt="example" src="{% url 'placeholder' width=50 height=50 %}">
+</body>
+</html>
